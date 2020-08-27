@@ -1,0 +1,13 @@
+E:\Repo\U\POO 20202\Ejemplo2\bin\Debug\netcoreapp3.1\Ejemplo2.exe
+E:\Repo\U\POO 20202\Ejemplo2\bin\Debug\netcoreapp3.1\Ejemplo2.deps.json
+E:\Repo\U\POO 20202\Ejemplo2\bin\Debug\netcoreapp3.1\Ejemplo2.runtimeconfig.json
+E:\Repo\U\POO 20202\Ejemplo2\bin\Debug\netcoreapp3.1\Ejemplo2.runtimeconfig.dev.json
+E:\Repo\U\POO 20202\Ejemplo2\bin\Debug\netcoreapp3.1\Ejemplo2.dll
+E:\Repo\U\POO 20202\Ejemplo2\bin\Debug\netcoreapp3.1\Ejemplo2.pdb
+E:\Repo\U\POO 20202\Ejemplo2\obj\Debug\netcoreapp3.1\Ejemplo2.csprojAssemblyReference.cache
+E:\Repo\U\POO 20202\Ejemplo2\obj\Debug\netcoreapp3.1\Ejemplo2.AssemblyInfoInputs.cache
+E:\Repo\U\POO 20202\Ejemplo2\obj\Debug\netcoreapp3.1\Ejemplo2.AssemblyInfo.cs
+E:\Repo\U\POO 20202\Ejemplo2\obj\Debug\netcoreapp3.1\Ejemplo2.csproj.CoreCompileInputs.cache
+E:\Repo\U\POO 20202\Ejemplo2\obj\Debug\netcoreapp3.1\Ejemplo2.dll
+E:\Repo\U\POO 20202\Ejemplo2\obj\Debug\netcoreapp3.1\Ejemplo2.pdb
+E:\Repo\U\POO 20202\Ejemplo2\obj\Debug\netcoreapp3.1\Ejemplo2.genruntimeconfig.cache

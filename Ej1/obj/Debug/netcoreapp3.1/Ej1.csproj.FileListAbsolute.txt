@@ -1,0 +1,15 @@
+E:\Repo\U\POO 20202\Ej1\bin\Debug\netcoreapp3.1\Ej1.exe
+E:\Repo\U\POO 20202\Ej1\bin\Debug\netcoreapp3.1\Ej1.deps.json
+E:\Repo\U\POO 20202\Ej1\bin\Debug\netcoreapp3.1\Ej1.runtimeconfig.json
+E:\Repo\U\POO 20202\Ej1\bin\Debug\netcoreapp3.1\Ej1.runtimeconfig.dev.json
+E:\Repo\U\POO 20202\Ej1\bin\Debug\netcoreapp3.1\Ej1.dll
+E:\Repo\U\POO 20202\Ej1\bin\Debug\netcoreapp3.1\Ej1.pdb
+E:\Repo\U\POO 20202\Ej1\obj\Debug\netcoreapp3.1\Ej1.csprojAssemblyReference.cache
+E:\Repo\U\POO 20202\Ej1\obj\Debug\netcoreapp3.1\Ej1.AssemblyInfoInputs.cache
+E:\Repo\U\POO 20202\Ej1\obj\Debug\netcoreapp3.1\Ej1.AssemblyInfo.cs
+E:\Repo\U\POO 20202\Ej1\obj\Debug\netcoreapp3.1\Ej1.csproj.CoreCompileInputs.cache
+E:\Repo\U\POO 20202\Ej1\obj\Debug\netcoreapp3.1\Ej1.dll
+E:\Repo\U\POO 20202\Ej1\obj\Debug\netcoreapp3.1\Ej1.pdb
+E:\Repo\U\POO 20202\Ej1\obj\Debug\netcoreapp3.1\Ej1.genruntimeconfig.cache
+E:\Repo\U\POO 20202\Ej1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Repo\U\POO 20202\Ej1\obj\Debug\netcoreapp3.1\Ej1.csproj.CopyComplete
