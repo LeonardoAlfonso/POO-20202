@@ -1,0 +1,13 @@
+E:\Repo\U\POO 20202\BancoFachada\bin\Debug\netcoreapp3.1\BancoFachada.exe
+E:\Repo\U\POO 20202\BancoFachada\bin\Debug\netcoreapp3.1\BancoFachada.deps.json
+E:\Repo\U\POO 20202\BancoFachada\bin\Debug\netcoreapp3.1\BancoFachada.runtimeconfig.json
+E:\Repo\U\POO 20202\BancoFachada\bin\Debug\netcoreapp3.1\BancoFachada.runtimeconfig.dev.json
+E:\Repo\U\POO 20202\BancoFachada\bin\Debug\netcoreapp3.1\BancoFachada.dll
+E:\Repo\U\POO 20202\BancoFachada\bin\Debug\netcoreapp3.1\BancoFachada.pdb
+E:\Repo\U\POO 20202\BancoFachada\obj\Debug\netcoreapp3.1\BancoFachada.csprojAssemblyReference.cache
+E:\Repo\U\POO 20202\BancoFachada\obj\Debug\netcoreapp3.1\BancoFachada.AssemblyInfoInputs.cache
+E:\Repo\U\POO 20202\BancoFachada\obj\Debug\netcoreapp3.1\BancoFachada.AssemblyInfo.cs
+E:\Repo\U\POO 20202\BancoFachada\obj\Debug\netcoreapp3.1\BancoFachada.csproj.CoreCompileInputs.cache
+E:\Repo\U\POO 20202\BancoFachada\obj\Debug\netcoreapp3.1\BancoFachada.dll
+E:\Repo\U\POO 20202\BancoFachada\obj\Debug\netcoreapp3.1\BancoFachada.pdb
+E:\Repo\U\POO 20202\BancoFachada\obj\Debug\netcoreapp3.1\BancoFachada.genruntimeconfig.cache
