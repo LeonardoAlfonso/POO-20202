@@ -1,0 +1,13 @@
+E:\Repo\U\POO 20202\BancoValidator\bin\Debug\netcoreapp3.1\BancoValidator.exe
+E:\Repo\U\POO 20202\BancoValidator\bin\Debug\netcoreapp3.1\BancoValidator.deps.json
+E:\Repo\U\POO 20202\BancoValidator\bin\Debug\netcoreapp3.1\BancoValidator.runtimeconfig.json
+E:\Repo\U\POO 20202\BancoValidator\bin\Debug\netcoreapp3.1\BancoValidator.runtimeconfig.dev.json
+E:\Repo\U\POO 20202\BancoValidator\bin\Debug\netcoreapp3.1\BancoValidator.dll
+E:\Repo\U\POO 20202\BancoValidator\bin\Debug\netcoreapp3.1\BancoValidator.pdb
+E:\Repo\U\POO 20202\BancoValidator\obj\Debug\netcoreapp3.1\BancoValidator.csprojAssemblyReference.cache
+E:\Repo\U\POO 20202\BancoValidator\obj\Debug\netcoreapp3.1\BancoValidator.AssemblyInfoInputs.cache
+E:\Repo\U\POO 20202\BancoValidator\obj\Debug\netcoreapp3.1\BancoValidator.AssemblyInfo.cs
+E:\Repo\U\POO 20202\BancoValidator\obj\Debug\netcoreapp3.1\BancoValidator.csproj.CoreCompileInputs.cache
+E:\Repo\U\POO 20202\BancoValidator\obj\Debug\netcoreapp3.1\BancoValidator.dll
+E:\Repo\U\POO 20202\BancoValidator\obj\Debug\netcoreapp3.1\BancoValidator.pdb
+E:\Repo\U\POO 20202\BancoValidator\obj\Debug\netcoreapp3.1\BancoValidator.genruntimeconfig.cache
