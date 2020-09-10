@@ -101,7 +101,7 @@ namespace BancoFachada.Tramites
             {
                 return false;
             }
-            else if(!long.TryParse(DocumentoCliente, out longnum) || !long.TryParse(CelularCliente, out longnum))
+            else if(!long.TryParse(DocumentoCliente, out longnum) && !long.TryParse(CelularCliente, out longnum))
             {
                 return false;
             }
