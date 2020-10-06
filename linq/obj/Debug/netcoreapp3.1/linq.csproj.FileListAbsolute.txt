@@ -1,0 +1,13 @@
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.exe
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.deps.json
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.runtimeconfig.json
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.runtimeconfig.dev.json
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.dll
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\linq.pdb
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.csprojAssemblyReference.cache
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.AssemblyInfoInputs.cache
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.AssemblyInfo.cs
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.csproj.CoreCompileInputs.cache
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.dll
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.pdb
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.genruntimeconfig.cache
