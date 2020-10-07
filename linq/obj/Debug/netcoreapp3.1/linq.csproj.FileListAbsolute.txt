@@ -11,3 +11,5 @@ E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.csproj.CoreCompileInputs.c
 E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.dll
 E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.pdb
 E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.genruntimeconfig.cache
+E:\Repo\U\POO 20202\linq\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Repo\U\POO 20202\linq\obj\Debug\netcoreapp3.1\linq.csproj.CopyComplete

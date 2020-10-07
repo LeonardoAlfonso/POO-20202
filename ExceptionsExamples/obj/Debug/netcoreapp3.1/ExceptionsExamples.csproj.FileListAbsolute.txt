@@ -1,0 +1,13 @@
+E:\Repo\U\POO 20202\ExceptionsExamples\bin\Debug\netcoreapp3.1\ExceptionsExamples.exe
+E:\Repo\U\POO 20202\ExceptionsExamples\bin\Debug\netcoreapp3.1\ExceptionsExamples.deps.json
+E:\Repo\U\POO 20202\ExceptionsExamples\bin\Debug\netcoreapp3.1\ExceptionsExamples.runtimeconfig.json
+E:\Repo\U\POO 20202\ExceptionsExamples\bin\Debug\netcoreapp3.1\ExceptionsExamples.runtimeconfig.dev.json
+E:\Repo\U\POO 20202\ExceptionsExamples\bin\Debug\netcoreapp3.1\ExceptionsExamples.dll
+E:\Repo\U\POO 20202\ExceptionsExamples\bin\Debug\netcoreapp3.1\ExceptionsExamples.pdb
+E:\Repo\U\POO 20202\ExceptionsExamples\obj\Debug\netcoreapp3.1\ExceptionsExamples.csprojAssemblyReference.cache
+E:\Repo\U\POO 20202\ExceptionsExamples\obj\Debug\netcoreapp3.1\ExceptionsExamples.AssemblyInfoInputs.cache
+E:\Repo\U\POO 20202\ExceptionsExamples\obj\Debug\netcoreapp3.1\ExceptionsExamples.AssemblyInfo.cs
+E:\Repo\U\POO 20202\ExceptionsExamples\obj\Debug\netcoreapp3.1\ExceptionsExamples.csproj.CoreCompileInputs.cache
+E:\Repo\U\POO 20202\ExceptionsExamples\obj\Debug\netcoreapp3.1\ExceptionsExamples.dll
+E:\Repo\U\POO 20202\ExceptionsExamples\obj\Debug\netcoreapp3.1\ExceptionsExamples.pdb
+E:\Repo\U\POO 20202\ExceptionsExamples\obj\Debug\netcoreapp3.1\ExceptionsExamples.genruntimeconfig.cache

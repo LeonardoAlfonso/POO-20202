@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eedQRH/d7g+FxW+i+X82vg4uQLUfvtOPReMD1lCH8I+HCOmdywKDV5EfW1W6xIgV6rch0teeCF4kp2EgMtXHgw==",
+  "dgSpecHash": "lJv3S2LuS3MNtYPZ2+dOaFyKDowqchwOFQieaM23uXIls1GSJLVzQb1ldnMFoCTMzOAhggI3eLjYRaw4tBwAqg==",
   "success": true,
   "projectFilePath": "E:\\Repo\\U\\POO 20202\\linq\\linq.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Leona\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

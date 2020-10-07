@@ -1,14 +1,29 @@
+using Newtonsoft.Json;
+
 namespace linq.Torneo
 {
     public class Jugador
     {
         #region Properties  
+        [JsonProperty("nombre")]
         public string Nombre { get; set; }
+
+        [JsonProperty("edad")]
         public int Edad { get; set; }
+        
+        [JsonIgnore]
         public int Posicion { get; set; }
+
+        [JsonProperty("ataque")]
         public double Ataque { get; set; }
+
+        [JsonProperty("defensa")]
         public double Defensa { get; set; }
+
+        [JsonProperty("goles")]
         public double Goles { get; set; }
+
+        [JsonProperty("asistencias")]
         public double Asistencias { get; set; }
 
         #endregion Properties

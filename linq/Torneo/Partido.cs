@@ -1,3 +1,6 @@
+using System;
+using Excepciones.CustomExceptions;
+
 namespace linq.Torneo
 {
     public class Partido
@@ -11,8 +14,29 @@ namespace linq.Torneo
         #region Initialize
         public Partido(Seleccion EquipoLocal, Seleccion EquipoVisitante) 
         {
-            this.EquipoLocal.Seleccion = EquipoLocal;
-            this.EquipoVisitante.Seleccion = EquipoVisitante;
+            this.EquipoLocal = new Equipo(EquipoLocal);
+            this.EquipoVisitante = new Equipo(EquipoVisitante);
+        }
+
+        public string Resultado()
+        {
+            string resultado = "0-0";
+            try
+            {
+                EquipoLocal.ExpulsarJugador("Mbappe");
+            }
+            catch (InvalidOperationException ex)
+            {
+                Console.WriteLine("No existe ese jugador para expulsarlo");
+            }
+            catch(LoseForWException ex)
+            {
+                Console.WriteLine(ex.Message);
+                resultado = "0-3";
+            }
+            
+            return resultado;
+
         }
         #endregion Initialize
 

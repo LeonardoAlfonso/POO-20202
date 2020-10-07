@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repo\\U\\POO 20202\\linq\\linq.csproj": {}
+    "E:\\Repo\\U\\POO 20202\\ExceptionsExamples\\ExceptionsExamples.csproj": {}
   },
   "projects": {
-    "E:\\Repo\\U\\POO 20202\\linq\\linq.csproj": {
+    "E:\\Repo\\U\\POO 20202\\ExceptionsExamples\\ExceptionsExamples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repo\\U\\POO 20202\\linq\\linq.csproj",
-        "projectName": "linq",
-        "projectPath": "E:\\Repo\\U\\POO 20202\\linq\\linq.csproj",
+        "projectUniqueName": "E:\\Repo\\U\\POO 20202\\ExceptionsExamples\\ExceptionsExamples.csproj",
+        "projectName": "ExceptionsExamples",
+        "projectPath": "E:\\Repo\\U\\POO 20202\\ExceptionsExamples\\ExceptionsExamples.csproj",
         "packagesPath": "C:\\Users\\Leona\\.nuget\\packages\\",
-        "outputPath": "E:\\Repo\\U\\POO 20202\\linq\\obj\\",
+        "outputPath": "E:\\Repo\\U\\POO 20202\\ExceptionsExamples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,12 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Linq;
+using Excepciones.CustomExceptions;
 
 namespace linq.Torneo
 {
@@ -22,5 +24,14 @@ namespace linq.Torneo
         }
         #endregion Initialize
 
+        #region Methods
+        public void ExpulsarJugador(string name)
+        {
+            if (Seleccion.Jugadores.Count < 8)
+                throw new LoseForWException(Seleccion.Nombre);
+            Jugador jugadorExpulsado = Seleccion.Jugadores.First(j => j.Nombre == name);
+            Seleccion.Jugadores.Remove(jugadorExpulsado);
+        }
+        #endregion Methods
     }
 }
