@@ -1,0 +1,13 @@
+E:\Repo\U\POO 20202\Patrones\bin\Debug\netcoreapp3.1\Patrones.exe
+E:\Repo\U\POO 20202\Patrones\bin\Debug\netcoreapp3.1\Patrones.deps.json
+E:\Repo\U\POO 20202\Patrones\bin\Debug\netcoreapp3.1\Patrones.runtimeconfig.json
+E:\Repo\U\POO 20202\Patrones\bin\Debug\netcoreapp3.1\Patrones.runtimeconfig.dev.json
+E:\Repo\U\POO 20202\Patrones\bin\Debug\netcoreapp3.1\Patrones.dll
+E:\Repo\U\POO 20202\Patrones\bin\Debug\netcoreapp3.1\Patrones.pdb
+E:\Repo\U\POO 20202\Patrones\obj\Debug\netcoreapp3.1\Patrones.csprojAssemblyReference.cache
+E:\Repo\U\POO 20202\Patrones\obj\Debug\netcoreapp3.1\Patrones.AssemblyInfoInputs.cache
+E:\Repo\U\POO 20202\Patrones\obj\Debug\netcoreapp3.1\Patrones.AssemblyInfo.cs
+E:\Repo\U\POO 20202\Patrones\obj\Debug\netcoreapp3.1\Patrones.csproj.CoreCompileInputs.cache
+E:\Repo\U\POO 20202\Patrones\obj\Debug\netcoreapp3.1\Patrones.dll
+E:\Repo\U\POO 20202\Patrones\obj\Debug\netcoreapp3.1\Patrones.pdb
+E:\Repo\U\POO 20202\Patrones\obj\Debug\netcoreapp3.1\Patrones.genruntimeconfig.cache
