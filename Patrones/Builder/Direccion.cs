@@ -2,7 +2,7 @@ namespace Patrones
 {
     public class Direccion
     {
-         #region Properties
+        #region Properties
         private string direccionEmpleado;
         private string barrio;
         private string ciudad;

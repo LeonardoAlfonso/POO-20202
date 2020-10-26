@@ -7,8 +7,7 @@ namespace Edificio_V1.EdificioEstructura
 {
     public class Salon
     {
-        #region Properties
-        
+        #region Properties        
         private string idSalon;        
         private bool luz;
         private double temperatura;

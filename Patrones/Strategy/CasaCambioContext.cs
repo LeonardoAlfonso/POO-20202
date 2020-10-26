@@ -1,4 +1,6 @@
 
+using System;
+
 namespace Patrones.Strategy
 {
     public class CasaCambioContext 
@@ -11,18 +13,10 @@ namespace Patrones.Strategy
         }
         public CasaCambioContext(string tipo)
         {
-            if (tipo == "DolarPeso")
-            {
-                Strategy = new DolarPeso();
-            }
-            else if (tipo == "YenPeso")
-            {
-                Strategy = new YenPeso();
-            }
-            else
-            {
-                Strategy = new PesoEuro();
-            }
+            string fullName = string.Concat("Patrones.Strategy.TiposCambio.", tipo);
+            Type classtype = Type.GetType(fullName);
+            ICambioMoneda clase = (ICambioMoneda)Activator.CreateInstance(classtype);
+            Strategy = clase;
         }
         public double ConsultarCambio(double dinero)
         {

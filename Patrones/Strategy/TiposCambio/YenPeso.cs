@@ -1,5 +1,5 @@
 
-namespace Patrones.Strategy
+namespace Patrones.Strategy.TiposCambio
 {
     public class YenPeso : ICambioMoneda
     {

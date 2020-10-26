@@ -45,7 +45,7 @@ namespace Edificio_V1.UserInterface
                 Console.WriteLine("Elija su salón:");
                 string salonElegido = Console.ReadLine();
                 ServicioSalones.MostrarDisponibilidad(salonElegido).ForEach(r => {
-                     Console.WriteLine($"Dia Reserva: {r.Dia}");
+                    Console.WriteLine($"Dia Reserva: {r.Dia}");
                     Console.WriteLine($"Hora Inicio: {r.HoraInicio}");
                     Console.WriteLine($"Hora Inicio: {r.HoraFin}");
                 });
@@ -78,7 +78,6 @@ namespace Edificio_V1.UserInterface
             {
                 Console.WriteLine("No hay un salón disponible");
             }  
-
         }
         #endregion Methods
     }

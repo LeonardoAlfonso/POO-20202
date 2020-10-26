@@ -1,4 +1,4 @@
-namespace Patrones.Strategy
+namespace Patrones.Strategy.TiposCambio
 {
     public class PesoEuro : ICambioMoneda
     {
