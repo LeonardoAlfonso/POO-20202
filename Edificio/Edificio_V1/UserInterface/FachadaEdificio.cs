@@ -12,6 +12,7 @@ namespace Edificio_V1.UserInterface
         #region Properties
         private Edificio edificio;
         private GestorSalones servicioSalones;
+        private GestorEdificio servicioEdificio;
         
         #endregion Properties
 
@@ -41,6 +42,7 @@ namespace Edificio_V1.UserInterface
         {
             try
             {
+                Console.WriteLine("A continuación, Verá la lista de los salones del edificio:");
                 ServicioSalones.RetornarSalones().ForEach(s => Console.WriteLine(s));
                 Console.WriteLine("Elija su salón:");
                 string salonElegido = Console.ReadLine();
@@ -78,6 +80,30 @@ namespace Edificio_V1.UserInterface
             {
                 Console.WriteLine("No hay un salón disponible");
             }  
+        }
+        
+        public void VisualizarSalon()
+        {
+            try
+            {
+                Console.WriteLine("A continuación, Verá la lista de los salones del edificio:");
+                ServicioSalones.RetornarSalones().ForEach(s => Console.WriteLine(s));
+                Console.WriteLine("Elija su salón:");
+                string salonElegido = Console.ReadLine();
+                Console.WriteLine("A qué hora desea ver el salón?: ");
+                string horaSeleccionada = Console.ReadLine();
+                Console.WriteLine("A qué minutos desea ver el salón?: ");
+                string minutosSeleccionados = Console.ReadLine();
+                Salon salon = servicioEdificio.RetornarEstadoSalon(salonElegido, horaSeleccionada, minutosSeleccionados);
+                Console.WriteLine("El estado del salón es: ");
+                Console.WriteLine("La temperatura es " + salon.Temperatura);
+                Console.WriteLine("La luz está " + (salon.Luz ? "encendida" : "apagada"));
+            }
+            catch(InvalidOperationException ex)
+            {
+                Console.WriteLine("Este salón no existe");
+            } 
+
         }
         #endregion Methods
     }

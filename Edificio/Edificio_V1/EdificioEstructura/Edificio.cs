@@ -47,34 +47,6 @@ namespace Edificio_V1.EdificioEstructura
         #endregion Initialize
 
         #region Methods
-        // public void ReservarSalon()
-        // {
-        //     bool reservaConfirmada = false;
-        //     Console.WriteLine("Cuál es el día para la reserva");
-        //     string dia = Console.ReadLine();
-        //     Console.WriteLine("Cuál es el hora inicio para la reserva");
-        //     string horaInicio = Console.ReadLine();
-        //     Console.WriteLine("Cuál es el hora final para la reserva");
-        //     string horafinal = Console.ReadLine();
-        //     Reserva reserva = new Reserva()
-        //     {
-        //         Dia = Convert.ToInt32(dia),
-        //         HoraInicio = Convert.ToInt32(horaInicio),
-        //         HoraFin = Convert.ToInt32(horafinal),
-        //     };
-        //     Salones.ForEach(s=> {
-        //         if (!reservaConfirmada)
-        //         {
-        //             s.Reservas.ForEach(r => {
-        //                 if ((reserva.HoraFin <= r.HoraInicio || reserva.HoraInicio >= reserva.HoraFin) 
-        //                     && reserva.Dia == r.Dia && !reservaConfirmada) {
-        //                     s.Reservas.Add(reserva);
-        //                     reservaConfirmada = true;
-        //                 }
-        //             });
-        //         }
-        //     });
-        // }
         public void CambiarHoraLuz()
         {
             Console.WriteLine("Cuántos minutos antes se deben encender las luces de los salones?");
