@@ -1,0 +1,20 @@
+@model TiendaDeportiva.ViewModels.DetailsViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>@Html.DisplayFor(model => model.product.Nombre)</h1>
+        <label for="">Precio : @Html.DisplayFor(model => model.product.Precio)</label>
+        <label for="">Color : @Html.DisplayFor(model => model.product.Color)</label>
+
+        <label for="">Gracias por visitarnos señor 
+            @Html.DisplayFor(model => model.NombreCliente)</label>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+@model MvcMovie.ViewModels.MovieGenreViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    @* <label for="">@Html.DisplayFor(model => model.Title)</label>
+    <label for="">@Html.DisplayFor(model => model.Genre)</label>
+    <label for="">@Html.DisplayFor(model => model.Price))</label> *@
+
+    <ul>
+        @foreach (var item in Model.Movies)
+        {
+            <li>@Html.DisplayFor(modelItem => item.Title)</li>
+            <li>@Html.DisplayFor(modelItem => item.Genre)</li>
+            <li>@Html.DisplayFor(modelItem => item.Price)</li>
+        }
+    </ul>
+
+</body>
+</html>

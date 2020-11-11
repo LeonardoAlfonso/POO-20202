@@ -1,0 +1,37 @@
+@model MvcMovie.Models.Movie
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Movie</h4>
+<hr />
+<div >
+    <div>
+        <form asp-action="Create" method="POST" enctype='application/json'>
+            <div>
+                <label asp-for="Title"></label>
+                <input asp-for="Title" />
+            </div>
+
+            <div >
+                <label asp-for="Genre"></label>
+                <input asp-for="Genre"/>
+            </div>
+            <div>
+                <label asp-for="Price"></label>
+                <input asp-for="Price" />
+                <span asp-validation-for="Price"></span>
+            </div>
+            <div>
+                <input type="submit" value="Create" />
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
