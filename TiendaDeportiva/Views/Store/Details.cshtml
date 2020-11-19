@@ -9,7 +9,8 @@
 </head>
 <body>
     <div>
-        <h1>@Html.DisplayFor(model => model.product.Nombre)</h1>
+        <h1>@Model.NombreCliente</h1>
+        @* <h1>@Html.DisplayFor(model => model.product.Nombre)</h1> *@
         <label for="">Precio : @Html.DisplayFor(model => model.product.Precio)</label>
         <label for="">Color : @Html.DisplayFor(model => model.product.Color)</label>
 

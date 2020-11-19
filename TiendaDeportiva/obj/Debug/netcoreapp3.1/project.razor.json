@@ -14402,6 +14402,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Repo\\U\\POO 20202\\TiendaDeportiva\\Views\\Store\\ListUsers.cshtml",
+      "TargetPath": "Views\\Store\\ListUsers.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Repo\\U\\POO 20202\\TiendaDeportiva\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14444,6 +14449,11 @@
     {
       "FilePath": "e:\\Repo\\U\\POO 20202\\TiendaDeportiva\\Views\\Store\\CreateProduct.cshtml",
       "TargetPath": "Views\\Store\\CreateProduct.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Repo\\U\\POO 20202\\TiendaDeportiva\\Views\\Store\\EditUser.cshtml",
+      "TargetPath": "Views\\Store\\EditUser.cshtml",
       "FileKind": "mvc"
     }
   ],

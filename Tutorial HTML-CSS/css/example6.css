@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Xanh Mono', monospace;
+}
+
+#MainWrapper
+{
+    height: 100vh;
+    background-image: url(../images/Fondo\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#MainWrapper label
+{
+    color: rgba(51, 112, 224, 0.746);
+    font-size: 2em;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+E:\Repo\U\POO 20202\Winforms\bin\Debug\netcoreapp3.1\Winforms.exe
+E:\Repo\U\POO 20202\Winforms\bin\Debug\netcoreapp3.1\Winforms.deps.json
+E:\Repo\U\POO 20202\Winforms\bin\Debug\netcoreapp3.1\Winforms.runtimeconfig.json
+E:\Repo\U\POO 20202\Winforms\bin\Debug\netcoreapp3.1\Winforms.runtimeconfig.dev.json
+E:\Repo\U\POO 20202\Winforms\bin\Debug\netcoreapp3.1\Winforms.dll
+E:\Repo\U\POO 20202\Winforms\bin\Debug\netcoreapp3.1\Winforms.pdb
+E:\Repo\U\POO 20202\Winforms\obj\Debug\netcoreapp3.1\Winforms.csprojAssemblyReference.cache
+E:\Repo\U\POO 20202\Winforms\obj\Debug\netcoreapp3.1\Winforms.AssemblyInfoInputs.cache
+E:\Repo\U\POO 20202\Winforms\obj\Debug\netcoreapp3.1\Winforms.AssemblyInfo.cs
+E:\Repo\U\POO 20202\Winforms\obj\Debug\netcoreapp3.1\Winforms.csproj.CoreCompileInputs.cache
+E:\Repo\U\POO 20202\Winforms\obj\Debug\netcoreapp3.1\Winforms.dll
+E:\Repo\U\POO 20202\Winforms\obj\Debug\netcoreapp3.1\Winforms.pdb
+E:\Repo\U\POO 20202\Winforms\obj\Debug\netcoreapp3.1\Winforms.genruntimeconfig.cache

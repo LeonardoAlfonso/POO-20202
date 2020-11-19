@@ -1,0 +1,13 @@
+#PrimerDiv
+{
+    background-color: powderblue;
+}
+
+#Cuadrado
+{
+    background-color: seagreen;
+    /* height: 10px;
+    width: 100px; */
+    height: 2em;
+    width: 3em;
+}

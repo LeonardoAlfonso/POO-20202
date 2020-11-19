@@ -1,5 +1,10 @@
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TiendaDeportiva.Models;
+using TiendaDeportiva.Services;
 using TiendaDeportiva.ViewModels;
 
 namespace TiendaDeportiva.Controllers
@@ -8,6 +13,18 @@ namespace TiendaDeportiva.Controllers
     [Route("[controller]")]
     public class StoreController : Controller
     {
+
+        #region Properties
+        private readonly TiendaDeportivaDBContext dBContext;
+        #endregion
+
+        #region Constructor
+        public StoreController(TiendaDeportivaDBContext dBContext)
+        {
+            this.dBContext = dBContext;
+        }
+
+        #endregion Constructor
 
         //https://localhost:5001/Store/TestStore
         [HttpGet("TestStore")]
@@ -103,6 +120,66 @@ namespace TiendaDeportiva.Controllers
         public IActionResult SaveProduct(Product product)
         {
             return Ok(product.Color);
+        }
+
+        //https://localhost:5001/Store/CreateUser
+        [HttpGet("CreateUser")]
+        public async Task<IActionResult> CreateUser()
+        {
+            UsuarioModel Usuario = new UsuarioModel()
+            {
+                Nombre = "Pepito",
+                Apellido = "Perez",
+                Edad = 54
+            };
+            dBContext.usuariosla.Add(Usuario);
+            await dBContext.SaveChangesAsync();
+
+            return Ok(Usuario.Id.ToString());
+        }
+
+        //https://localhost:5001/Store/ListUsers
+        [HttpGet("ListUsers")]
+        public async Task<IActionResult> ListUsersAsync()
+        {
+            ListUsersViewModel vm = new ListUsersViewModel();
+            vm.Users = await dBContext.usuariosla.ToListAsync();
+            // vm.Users = vm.Users.Where(u => u.Nombre == "Gustavo").ToList();
+            return View(vm);
+        }
+
+        //https://localhost:5001/Store/DeleteUser/1
+        [HttpGet("DeleteUser/{id}")]
+        public async Task<IActionResult> DeleteUser(long id)
+        {
+            try
+            {
+                UsuarioModel usuario = await dBContext.usuariosla.FindAsync(id);
+                if (usuario == null)
+                    throw new Exception("Usuario no encontrado");
+
+                dBContext.usuariosla.Remove(usuario);
+                await dBContext.SaveChangesAsync();
+                return Ok("Usuario Borrado");
+            }
+            catch (Exception e)
+            {
+                return Content(e.Message);
+            }
+        }
+
+        //https://localhost:5001/Store/DeleteUser/1
+        [HttpPut("UpdateUser/{id}")]
+        public async Task<IActionResult> UpdateUser(long id, UsuarioModel Usuario)
+        {
+            UsuarioModel usuario = await dBContext.usuariosla.FindAsync(id);
+            if (usuario == null)
+                throw new Exception("Usuario no encontrado");
+            
+            Usuario.Id = id;
+            dBContext.Entry(Usuario).State = EntityState.Modified;
+            await dBContext.SaveChangesAsync();
+            return Content("Usuario Modificado");
         }
 
     }

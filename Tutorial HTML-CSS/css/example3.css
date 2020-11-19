@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#Envoltorio
+{
+    background-color: seashell; 
+    padding-top: 1em;
+}
+
+#Cuadrado
+{
+    margin-top: 1em;
+    height: 3em;
+    width: 4em;
+    background-color: slateblue;
+    padding-top: 1em;
+}
+
+#Cuadrado p
+{
+    margin-top: 1em;
+    color: whitesmoke;
+}

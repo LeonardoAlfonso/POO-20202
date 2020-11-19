@@ -4,12 +4,25 @@ using MvcMovie.ViewModels;
 using System.Collections.Generic;
 using System.Net;
 using System.Text.Encodings.Web;
+using System.Threading.Tasks;
 
 namespace MvcMovie.Controllers
 {
     [Route("[controller]")]
     public class HelloWorldController : Controller
     {
+
+        #region Properties
+        private readonly TiendaDBContext dBContext;
+        #endregion Properties
+
+        #region Constructor
+        public HelloWorldController(TiendaDBContext dBContext)
+        {
+            this.dBContext = dBContext;
+        }
+        #endregion Constructor
+
         // 
         // GET: /HelloWorld/
         
@@ -34,7 +47,7 @@ namespace MvcMovie.Controllers
         // }
 
         [HttpGet("Welcome")]
-        public IActionResult Welcome()
+        public async Task<IActionResult> Welcome()
         {
             Movie movie = new Movie()
             {
@@ -48,6 +61,8 @@ namespace MvcMovie.Controllers
                 Genre = "Comedia",
                 Price = 789
             };
+            dBContext.peliculas.Add(movie);
+            await dBContext.SaveChangesAsync();
             List<Movie> movies = new List<Movie>();
             movies.Add(movie);
             movies.Add(movie2);
