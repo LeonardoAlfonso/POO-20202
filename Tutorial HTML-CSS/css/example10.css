@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#MainWrapper
+{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#MainWrapper form
+{
+    border: none;
+    border-radius: 0.5em;
+    padding: 2em;
+    width: 40%;
+    background-color: rgb(6, 39, 77);
+}
+
+#MainWrapper form h1
+{
+    text-align: center;
+    margin-bottom: 1em;
+    color: #FFFFFF;
+}
+
+#MainWrapper form ul
+{
+    list-style: none;
+}
+
+#MainWrapper form ul li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#MainWrapper form ul li label
+{
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+#MainWrapper form ul li input
+{
+    border:none;
+    padding: 0.5em;
+    outline: none;
+    color: rgb(6, 39, 77);
+    font-size: 1.05em;
+    border-radius: 0.5em;
+}
+
+#MainWrapper form ul li#Button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#MainWrapper form ul li#Button button
+{
+    border: none;
+    padding: 0.5em 3em;
+    font-size: 1.2em;
+    border-radius: 0.8em;
+    color: rgb(6, 39, 77);
+    background-color: #FFFFFF;
+}
+
+#MainWrapper form ul li#Button button:hover
+{
+    background-color: rgba(28, 119, 223, 0.2);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+

@@ -1,28 +1,31 @@
-@model TiendaDeportiva.Models.Product
+@model TiendaDeportiva.Models.UsuarioModel
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/EditUserStyle.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <form asp-action="UpdateUser" method="PUT" asp->
+    <div id="WrapperScreen">
+        @* <a asp-controller="Store" asp-action="ListUsersAsync">Volver</a> *@
+        <form asp-action="UpdateUser" method="POST">
+            <input type="hidden" asp-for="Id">
             <div>
-                <label asp-for="Nombre"></label>
+                <label class="InfoFormulario" asp-for="Nombre"></label>
                 <input asp-for="Nombre"/>
             </div>
 
             <div>
-                <label asp-for="Precio"></label>
-                <input asp-for="Precio"/>
+                <label class="InfoFormulario" asp-for="Apellido"></label>
+                <input asp-for="Apellido"/>
             </div>
 
             <div>
-                <label asp-for="Color"></label>
-                <input asp-for="Color"/>
+                <label class="InfoFormulario" asp-for="Edad"></label>
+                <input asp-for="Edad"/>
             </div>
 
             <div>

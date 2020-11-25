@@ -62,3 +62,5 @@ E:\Repo\U\POO 20202\TiendaDeportiva\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dl
 E:\Repo\U\POO 20202\TiendaDeportiva\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 E:\Repo\U\POO 20202\TiendaDeportiva\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 E:\Repo\U\POO 20202\TiendaDeportiva\obj\Debug\netcoreapp3.1\Razor\Views\Store\ListUsers.cshtml.g.cs
+E:\Repo\U\POO 20202\TiendaDeportiva\obj\Debug\netcoreapp3.1\Razor\Views\Store\EditUser.cshtml.g.cs
+E:\Repo\U\POO 20202\TiendaDeportiva\obj\Debug\netcoreapp3.1\Razor\Views\Other\Index.cshtml.g.cs

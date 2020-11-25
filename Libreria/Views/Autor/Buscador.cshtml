@@ -1,0 +1,28 @@
+@* @model Libreria.Models.AutorModel *@
+@model Libreria.ViewModels.AutorBuscadorViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador Autores</title>
+</head>
+<body>
+    <form asp-controller="Autor" asp-action="BuscarAutor" method="POST" asp->
+        <label for="">Buscar Autor: </label>
+        <input type="text" asp-for="AutorBusqueda.Nombre">
+        <input type="submit" value="Buscar Autor">
+    </form>
+
+    @if (Model.HayUsuario == true)
+    {
+        <ul>
+            <li>Nombre : @Html.DisplayFor(model => model.AutorBusqueda.Nombre)</li>
+            <li>Cantidad Libros : @Html.DisplayFor(model => model.AutorBusqueda.CantidadLibros)</li>
+            <li>Fecha Nacimiento : @Html.DisplayFor(model => model.AutorBusqueda.FechaNacimiento)</li>
+        </ul> 
+    }
+
+</body>
+</html>

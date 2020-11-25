@@ -168,18 +168,44 @@ namespace TiendaDeportiva.Controllers
             }
         }
 
-        //https://localhost:5001/Store/DeleteUser/1
-        [HttpPut("UpdateUser/{id}")]
-        public async Task<IActionResult> UpdateUser(long id, UsuarioModel Usuario)
+        //https://localhost:5001/Store/EditUser/1
+        [HttpGet("EditUser/{id}")]
+        public async Task<IActionResult> EditUser(long id)
         {
-            UsuarioModel usuario = await dBContext.usuariosla.FindAsync(id);
-            if (usuario == null)
-                throw new Exception("Usuario no encontrado");
-            
-            Usuario.Id = id;
-            dBContext.Entry(Usuario).State = EntityState.Modified;
-            await dBContext.SaveChangesAsync();
-            return Content("Usuario Modificado");
+            try
+            {
+                UsuarioModel usuario = await dBContext.usuariosla.FindAsync(id);
+                if (usuario == null)
+                    throw new Exception("El usuario no existe");
+                return View(usuario);
+            }
+            catch(Exception e)
+            {
+                return Content(e.Message);
+            }
+        }
+
+        //https://localhost:5001/Store/UpdateUser
+        [HttpPost("UpdateUser")]
+        public async Task<IActionResult> UpdateUser(UsuarioModel Usuario)
+        {
+            try
+            {
+                dBContext.Entry(Usuario).State = EntityState.Modified;
+                await dBContext.SaveChangesAsync();
+                return Redirect("/Store/ListUsers");
+            }
+            catch (Exception e)
+            {
+                return Content(e.Message);
+            }
+        }
+
+        //https://localhost:5001/Store/Index
+        [HttpGet("Index")]
+        public IActionResult Index()
+        {
+            return View();
         }
 
     }

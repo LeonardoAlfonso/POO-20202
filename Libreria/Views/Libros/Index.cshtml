@@ -1,0 +1,54 @@
+@model Libreria.ViewModels.LibrosIndexViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/LibrosIndex.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Libros</title>
+</head>
+<body>
+    <div id="MainWrapper">
+        <header>
+            <a asp-controller="Home" asp-action="Index">Volver</a>
+            <a>Nuevo libro</a>
+        </header>
+        <div id="WrapperLibros">
+            @if(Model.HayLibros)
+            {
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre Libro</th>
+                            <th>Genero</th>
+                            <th>Cantidad Páginas</th>
+                            <th>Editar</th>
+                            <th>Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var libro in Model.Libros)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => libro.Nombre)</td>
+                                <td>@Html.DisplayFor(modelItem => libro.Genero)</td>
+                                <td>@Html.DisplayFor(modelItem => libro.CantidadPaginas)</td>
+                                <td>
+                                    <a><i class="far fa-edit"></i></a>#
+                                </td>
+                                <td><i class="far fa-edit"></i></td>
+                            </tr>    
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <label for="">No hay libros en el sistema</label>
+            }
+        </div>
+    </div>
+</body>
+</html>

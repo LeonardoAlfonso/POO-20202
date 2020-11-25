@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#MainWrapper
+{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#MainWrapper ul
+{
+    list-style: none;
+    border: 1px solid black;
+    padding: 1em;
+    display: flex;
+}
+
+#MainWrapper ul li
+{
+    background-color: darkslategray;
+    padding: 0.2em;
+    margin-right: 0.1em;
+    color: white;
+}
+
+#MainWrapper ul li div label
+{
+    background-color: darkviolet;
+}

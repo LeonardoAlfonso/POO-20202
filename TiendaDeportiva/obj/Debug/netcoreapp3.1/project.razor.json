@@ -14392,6 +14392,11 @@
   "RootNamespace": "TiendaDeportiva",
   "Documents": [
     {
+      "FilePath": "e:\\Repo\\U\\POO 20202\\TiendaDeportiva\\Views\\Other\\Index.cshtml",
+      "TargetPath": "Views\\Other\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Repo\\U\\POO 20202\\TiendaDeportiva\\Views\\Store\\InfoProduct.cshtml",
       "TargetPath": "Views\\Store\\InfoProduct.cshtml",
       "FileKind": "mvc"

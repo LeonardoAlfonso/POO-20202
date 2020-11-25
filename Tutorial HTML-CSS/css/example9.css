@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#MainWrapper
+{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#MainWrapper table
+{
+    border-collapse: collapse;
+    width: 90%;
+}
+
+#MainWrapper table th
+{
+    background:  rgb(215, 176, 69, 0.8);
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 0.8em 0.4em;
+}
+
+#MainWrapper table td
+{
+    background: rgba(60, 60, 59, 0.6);
+    border: 1px solid rgba(60, 60, 59, 0.2);
+    padding: 0.8em 0.4em;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#MainWrapper tbody tr:hover
+{
+    background:  rgb(215, 176, 69, 0.7);
+}

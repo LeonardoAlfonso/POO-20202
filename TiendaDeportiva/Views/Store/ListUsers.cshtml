@@ -11,9 +11,12 @@
     <ul>
         @foreach (var item in Model.Users)
         {
-            <li>Nombre : @Html.DisplayFor(modelItem => item.Nombre)</li>
-            <li>Apellido: @Html.DisplayFor(modelItem => item.Apellido)</li>
-            <li>Edad: @Html.DisplayFor(modelItem => item.Edad)</li>
+            <li>
+                <label>Nombre : @Html.DisplayFor(modelItem => item.Nombre)</label>
+                <label>Apellido: @Html.DisplayFor(modelItem => item.Apellido)</label>
+                <label>Edad: @Html.DisplayFor(modelItem => item.Edad)</label>
+                <a asp-controller="Store" asp-action="EditUser" asp-route-id="@item.Id">Editar</a>        
+            </li>            
         }
     </ul>
 </body>
