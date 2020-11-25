@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/example6.css">
+    <!-- <link rel="stylesheet" href="css/example6.css"> -->
     <title>Example 6</title>
 </head>
 <body>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            font-family: 'Xanh Mono', monospace;
+        }
+
+        #MainWrapper
+        {
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }#MainWrapperLabel
+        {
+            color: rgba(51, 112, 224, 0.746);
+            font-size: 2em;
+            font-style: italic;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
     <div id="MainWrapper">
-        <label>Ingresar!!</label>
+        <label id="MainWrapperLabel">Ingresar!!</label>
     </div>
 </body>
 </html>
