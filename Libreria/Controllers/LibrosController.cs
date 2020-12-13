@@ -6,6 +6,7 @@ using Libreria.Services;
 using Libreria.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace Libreria.Controllers
 {
@@ -14,12 +15,14 @@ namespace Libreria.Controllers
     {
         #region Properties
         private readonly LibreriaDBContext dBContext;
+        private IMemoryCache _cache;
         #endregion
 
         #region Constructor
-        public LibrosController(LibreriaDBContext dBContext)
+        public LibrosController(LibreriaDBContext dBContext, IMemoryCache memoryCache)
         {
             this.dBContext = dBContext;
+            _cache = memoryCache;
         }
         #endregion
         
@@ -29,6 +32,19 @@ namespace Libreria.Controllers
         [HttpGet("ListaLibros")]
         public async Task<IActionResult> Index()
         {
+            
+
+            var cacheEntryOptions = new MemoryCacheEntryOptions()
+            // Keep in cache for this time, reset time if accessed.
+            .SetSlidingExpiration(TimeSpan.FromMinutes(10));
+            _cache.Set("test", "Holi", cacheEntryOptions);
+
+            string cacheEntry = "";
+            if (_cache.TryGetValue("test", out cacheEntry))
+            {
+                Console.WriteLine(cacheEntry);
+            }
+
             LibrosIndexViewModel vm = new LibrosIndexViewModel();
             try
             {

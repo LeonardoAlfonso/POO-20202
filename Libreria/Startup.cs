@@ -27,6 +27,7 @@ namespace Libreria
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddMemoryCache();
             services.AddDbContextPool<LibreriaDBContext>(options => options
                 .UseMySql("Server=movilesdb20201.cmlwzrhblbat.us-east-1.rds.amazonaws.com;Port=3306;Database=DBGesstionTiendas;User=movilesDBUser;Password=adminMovilesDB20201;", mySqlOptions => mySqlOptions.ServerVersion(new Version(10, 2, 21), ServerType.MariaDb)));
         }
